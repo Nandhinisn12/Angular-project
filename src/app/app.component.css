@@ -1,21 +1,13 @@
 p {
   font-family: Lato;
 }
-#button1{
-  text-align: center;
-  border: 10%;
-  border-color:rgb(61, 7, 105);
-  border-radius: 14%;
-  margin-left: 45%;
-
-
- }
- 
- #button2{
-   text-align: center;
-   border: 10%;
-   border-color:rgb(61, 7, 105);
-   border-radius: 14%
-
-
-  }
+button {
+  background-color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
+  border-radius: 100px;
+  padding: 5px;
+  float: left 10px;
+  margin-top: 50px;
+  margin-left: 200px;
+  cursor: pointer;
+}
