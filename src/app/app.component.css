@@ -1,8 +1,71 @@
 p {
   font-family: Lato;
+  font-size: larger;
+  font-weight: 400;
+  color: brown;
+  font-style: italic;
+  text-align: center;
+  background-color: rgba(179, 151, 151, 0.466);
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
+.one {
+  text-align: center;
+ 
+  padding: 16px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+#format td,
+#format th {
+  border: 0.5px solid pink;
+  padding: 2px;
+  width: 200px;
+  text-align: center;
+}
+table {
+  margin: auto;
+  padding: auto;
+}
+h1,
+p {
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+}
+
+#mark td,
+#mark th {
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#mark tr:hover {
+  background-color: rgb(255, 253, 253);
+}
+
+#mark th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(17, 149, 226);
+  color: rgb(255, 255, 255);
+}
+#mark tr:nth-child(odd) {
+  background-color: lightslategray;
+}
+
 button {
-  background-color: rgb(3, 3, 3);
+  background-color: black;
   color: rgb(255, 255, 255);
   border-radius: 100px;
   padding: 5px;
