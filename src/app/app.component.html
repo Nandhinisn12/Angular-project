@@ -1,34 +1,21 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Angular Project
-</p>
-<h2>Price List</h2>
-<style>
-  table,
-  th,
-  td {
-    border: solid pink;
-    border-collapse: collapse;
+<header>
+  <h1 class="one">
+    Price &nbsp;
+    Ratings
+  </h1>
 
-    text-align: left;
-    padding: 8px;
-  }
-</style>
-<table style="width: 100%">
+
+<table id="mark">
   <tr>
-    <th>Flavour</th>
-    <th>Ratings</th>
-    <th>Price</th>
+    <th *ngFor="let column of headers">
+      {{ column }}
+    </th>
   </tr>
-  <tr>
-    <td>Strawberry</td>
-    <td>4STAR</td>
-    <td>250</td>
-  </tr>
-  <tr>
-    <td>Toffee</td>
-    <td>3STAR</td>
-    <td>190</td>
+  <tr *ngFor="let row of rows">
+    <td *ngFor="let column of headers">
+      {{ row[column] }}
+    </td>
   </tr>
 </table>
-<button>NEXT&rarr;</button>
+</header>
+<button>SELECT&rarr;</button>
