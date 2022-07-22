@@ -1,3 +1,21 @@
 p {
   font-family: Lato;
 }
+#button1{
+  text-align: center;
+  border: 10%;
+  border-color:rgb(61, 7, 105);
+  border-radius: 14%;
+  margin-left: 45%;
+
+
+ }
+ 
+ #button2{
+   text-align: center;
+   border: 10%;
+   border-color:rgb(61, 7, 105);
+   border-radius: 14%
+
+
+  }
